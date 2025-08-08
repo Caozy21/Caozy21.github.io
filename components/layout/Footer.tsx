@@ -11,7 +11,7 @@ export default function Footer() {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Jhon Doe</h3>
 						<p className="text-sm text-muted-foreground mb-4">
-							M.Sc. Chemistry Student passionate about research and innovation in chemical sciences.
+							B.Sc. Astronomy Student passionate about research and exploration in astronomical dynamics.
 						</p>
 						<div className="flex space-x-4">
 							<Link
@@ -24,7 +24,7 @@ export default function Footer() {
 								<span className="sr-only">Twitter</span>
 							</Link>
 							<Link
-								href="https://github.com"
+								href="https://github.com/Caozy21"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-muted-foreground hover:text-primary transition-colors"
@@ -42,7 +42,7 @@ export default function Footer() {
 								<span className="sr-only">LinkedIn</span>
 							</Link>
 							<Link
-								href="mailto:Jhon Doe.karmaker@example.com"
+								href="mailto:zhuoyacaoly@gmail.com"
 								className="text-muted-foreground hover:text-primary transition-colors"
 							>
 								<Mail size={20} />
@@ -100,20 +100,20 @@ export default function Footer() {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Contact</h3>
 						<p className="text-sm text-muted-foreground mb-2">
-							West Bengal, India
+							Hangzhou, China
 						</p>
 						<p className="text-sm text-muted-foreground mb-2">
-							Jhon Doe.karmaker@example.com
+							zhuoyacaoly@gmail.com
 						</p>
 						<p className="text-sm text-muted-foreground">
-							+91 98765 43210
+							+86 151 5110 9716
 						</p>
 					</div>
 				</div>
 
 				<div className="mt-8 pt-8 border-t border-muted text-center">
 					<p className="text-sm text-muted-foreground">
-						© {currentYear} Jhon Doe. All rights reserved.
+						© {currentYear} Zhuoya Cao. All rights reserved.
 					</p>
 				</div>
 			</div>

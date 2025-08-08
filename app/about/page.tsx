@@ -4,8 +4,8 @@ import SectionContainer from '@/components/common/SectionContainer';
 import PageHeader from '@/components/common/PageHeader';
 
 export const metadata: Metadata = {
-  title: 'About | Jhon Doe',
-  description: 'Learn about Jhon Doe, an M.Sc. Chemistry student from West Bengal, India, her background, research interests, and professional goals.',
+  title: 'About | Zhuoya Cao',
+  description: 'Learn about Zhuoya Cao, a B.Sc. Astronomy student from China, her background, research interests, and professional goals.',
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
       <SectionContainer>
         <PageHeader
           title="About Me"
-          description="Learn about my journey, interests, and aspirations in the field of chemistry."
+          description="Learn about my journey, interests and pursuit on the playground of astronomy."
         />
 
         <AboutContent />

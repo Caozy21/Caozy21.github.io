@@ -5,8 +5,8 @@ import ProjectCard from '@/components/projects/ProjectCard';
 import { projects } from '@/lib/constants';
 
 export const metadata: Metadata = {
-	title: 'Projects | Jhon Doe',
-	description: 'Explore the research projects and laboratory work conducted by Jhon Doe in the field of chemistry.',
+	title: 'Projects | Zhuoya Cao',
+	description: 'Explore the research projects and laboratory work conducted by Zhuoya Cao in the field of astronomy.',
 };
 
 export default function ProjectsPage() {
@@ -15,7 +15,7 @@ export default function ProjectsPage() {
 			<SectionContainer>
 				<PageHeader
 					title="Research Projects"
-					description="Explore my laboratory work and research projects in the field of chemistry."
+					description="Explore my research projects in the field of astronomy and beyond."
 				/>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

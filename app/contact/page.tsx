@@ -8,8 +8,8 @@ import Link from 'next/link';
 import { contactInfo } from '@/lib/constants';
 
 export const metadata: Metadata = {
-	title: 'Contact | Jhon Doe',
-	description: 'Get in touch with Jhon Doe, an M.Sc. Chemistry student from West Bengal, India, for research collaborations, academic inquiries, or professional opportunities.',
+	title: 'Contact | Zhuoya Cao',
+	description: 'Get in touch with Zhuoya Cao, a B.Sc. Astronomy student from China, for professional opportunities, research collaborations or academic inquiries.',
 };
 
 export default function ContactPage() {
@@ -18,7 +18,7 @@ export default function ContactPage() {
 			<SectionContainer>
 				<PageHeader
 					title="Contact Me"
-					description="Have a question or want to collaborate? Feel free to reach out."
+					description="Want to know more about me or to collaborate? Feel free to reach out!"
 				/>
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -99,7 +99,7 @@ export default function ContactPage() {
 
 						<div className="mt-10">
 							<p className="text-muted-foreground mb-4">
-								Interested in my qualifications? Download my CV for a complete overview of my academic and research background.
+								Download my CV for a complete overview of my academic and research background.
 							</p>
 							<CVButton variant="outline" />
 						</div>

@@ -1,67 +1,67 @@
 export const projects = [
 	{
 		id: 1,
-		title: "Green Synthesis of Metal Nanoparticles",
-		description: "Developed eco-friendly methods for synthesizing metal nanoparticles using plant extracts as reducing agents, with applications in catalysis and antimicrobial surfaces.",
+		title: "Migration of High-eccentricity Gas Giants on a Protoplanetary Disk",
+		description: "Conducting hydrodynamic simulations on gas giant migration on a protoplanetary disk by Athena++. Integrating migration laws from hydro simulations into REBOUNDx framework for effective dynamic simulation on complex planetary systems.",
 		imageUrl: "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Jan 2023 - Apr 2023",
-		collaborators: ["Dr. A. Chatterjee", "R. Kumar"],
+		date: "Jun 2025 - Present",
+		collaborators: ["Prof. Shude Mao", "Prof. Shigeru Ida","Dr. Yaping Li"],
 		link: "#"
 	},
 	{
 		id: 2,
-		title: "Biodegradable Polymers from Agricultural Waste",
-		description: "Researched methods to convert agricultural waste into biodegradable polymers, focusing on improving material properties for packaging applications.",
+		title: "Launching Mechanism for FFPs from Host Stars with Cometary Companions and Close-in Planets",
+		description: "Conducted REBOUNDx simulation to test the influence of tides on the production of FFPs from the host stars with cometary companions and close-in planets. Deduced a theoretical model to explain the tide influence on such systems.",
 		imageUrl: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Aug 2022 - Dec 2022",
-		collaborators: ["Prof. S. Banerjee", "M. Singh"],
+		date: "May 2025 - Present",
+		collaborators: ["Prof. Douglas N.C. Lin", "Prof. Shigeru Ida", "Dr. Xiaochen Zheng"],
 		link: "#"
 	},
 	{
 		id: 3,
-		title: "Novel Catalysts for Carbon Dioxide Reduction",
-		description: "Investigated transition metal complexes as catalysts for electrochemical reduction of carbon dioxide to value-added chemicals, contributing to carbon capture utilization strategies.",
+		title: "Planet Migration on a Protoplanetary Disk with Ring-shaped Dead Zone",
+		description: "Conducted simulations on migration of planets on a protoplanetary disk with ring shaped dead zone by Athena++. Reveal xxx as a possible mechanism to stop gas giant migration.",
 		imageUrl: "https://images.pexels.com/photos/5726837/pexels-photo-5726837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "May 2022 - Aug 2022",
-		collaborators: ["Dr. P. Roy", "N. Das"],
+		date: "May 2025 - Present",
+		collaborators: ["Prof. Douglas N.C. Lin", "Dr. Yaping Li"],
 		link: "#"
 	},
 	{
 		id: 4,
-		title: "Water Purification using Modified Activated Carbon",
-		description: "Developed modified activated carbon materials for efficient removal of heavy metals and organic pollutants from wastewater, with potential applications in rural water treatment.",
+		title: "Comet Shower at the Pliocene-Pleistocene Transition Triggered by a Stellar Fly-by",
+		description: "Conducted numerous simulations on Oort cloud and stellar flyby by REBOUND package, revealed and explained the Oort cloud behaviors during single and binary star invasions. Theoretically explained a possible comet shower caused by HD 7977’s flyby 3 Myr ago, analyzed comet duration, intensity, and its impact on the ancient Earth. Collected geographic evidence of craters and comet components, revealing that this comet shower could be the cause of the Pliocene-Pleistocene Transition.",
 		imageUrl: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Jan 2022 - Apr 2022",
-		collaborators: ["Prof. D. Sharma", "K. Patel"],
+		date: "Sep 2024 - Feb 2025",
+		collaborators: ["Prof. Abraham Loeb", "Dr. Morgan Macleod"],
 		link: "#"
 	},
 	{
 		id: 5,
-		title: "Medicinal Properties of Traditional Herbal Extracts",
-		description: "Analyzed chemical composition and medicinal properties of traditional herbal extracts from Eastern India, identifying potential lead compounds for pharmaceutical development.",
+		title: "Stability of the Solar System by Impacts from Free Floating Planets to Stellar Flybys",
+		description: "Explored flybys' impact on planetary systems (solar system) by REBOUND, computatively and theoretically revealed the relationship between system collapse probability and intrusion perihelion distance on a large parameter space.",
 		imageUrl: "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Sep 2021 - Dec 2021",
-		collaborators: ["Dr. M. Gupta", "S. Biswas"],
+		date: "Oct 2023 - Jun 2024",
+		collaborators: ["Prof. Shude Mao"],
 		link: "#"
 	},
 	{
 		id: 6,
-		title: "Soil Quality Analysis in Agricultural Regions",
-		description: "Conducted comprehensive chemical analysis of soil samples from various agricultural regions in West Bengal to assess nutrient content and pollution levels.",
+		title: "HST to JWST Super-Resolution Based on ControlNet",
+		description: "Using convolution techniques to down-resolve the JWST images to the HST resolution, and validating the database using ControlNet-based machine learning.",
 		imageUrl: "https://images.pexels.com/photos/5472310/pexels-photo-5472310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "May 2021 - Aug 2021",
-		collaborators: ["Dr. A. Krishnan", "T. Ghosh"],
+		date: "Feb 2025 - Jun 2025",
+		collaborators: ["Prof. Zheng Cai", "Fujiang Yu"],
 		link: "#"
 	}
 ];
 
 export const contactInfo = {
-	email: "Jhon Doe.karmaker@example.com",
-	phone: "+91 98765 43210",
-	address: "Kolkata, West Bengal, India",
+	email: "zhuoyacaoly@gmail.com",
+	phone: "+86 151 5110 9716",
+	address: "Westlake University, Hangzhou, China 310000",
 	socialMedia: {
 		linkedin: "https://linkedin.com",
 		twitter: "https://twitter.com",
-		github: "https://github.com"
+		github: "https://github.com/Caozy21"
 	}
 };

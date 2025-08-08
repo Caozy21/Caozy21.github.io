@@ -7,41 +7,38 @@ import { cn } from '@/lib/utils';
 const educationData = [
   {
     id: 1,
-    degree: 'M.Sc. in Chemistry',
-    institution: 'University of Calcutta',
-    location: 'Kolkata, West Bengal',
-    period: '2022-2024',
-    description: 'Specializing in Organic Chemistry with focus on sustainable synthesis methods. Conducted research on eco-friendly catalysts for organic transformations.',
+    degree: 'Research Associate in Astronomy',
+    institution: 'Westlake University',
+    location: 'Hangzhou, China',
+    period: 'Jun 2025 - Present',
+    description: 'Specializing in theoretical astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks.',
     achievements: [
-      'University Gold Medalist',
-      'Published research paper in Journal of Organic Chemistry',
-      'Presented at National Chemistry Conference 2023'
+      'Presented at 2025 Science Meeting of the Earth 2.0 Apace Mission'
     ]
   },
   {
     id: 2,
-    degree: 'B.Sc. in Chemistry (Honours)',
-    institution: 'Jadavpur University',
-    location: 'Kolkata, West Bengal',
-    period: '2019-2022',
-    description: 'Comprehensive foundation in chemical principles with laboratory experience in analytical, organic, inorganic, and physical chemistry.',
+    degree: 'B.Sc. in Mechanics and Astronomy',
+    institution: 'Tsinghua University',
+    location: 'Beijing, China',
+    period: 'Aug 2021 - Jun 2025',
+    description: 'Comprehensive foundation in astronomy and dynamics, incl. fluid mechanics and N-body dynamics.',
     achievements: [
-      'Graduated with First Class Honours',
-      'Department Merit Scholarship recipient',
-      'Undergraduate research project on green chemistry'
+      'Full GPA for astronomy courses (4.0/4.0)',
+      'Scholarship for Comprehensive Excellence of Tsinghua Univ.',
+      'Tsinghua Xuetang Scholarship (for Tsien Excellence Program)',
+      'Undergraduate research project on planetary dynamics and super resolution'
     ]
   },
   {
     id: 3,
-    degree: 'Higher Secondary Education',
-    institution: 'West Bengal Council of Higher Secondary Education',
-    location: 'West Bengal',
-    period: '2017-2019',
-    description: 'Focused on Science stream with specialization in Chemistry, Physics, and Mathematics.',
+    degree: 'Exchange Undergraduate in Astronomy',
+    institution: 'Kyoto University',
+    location: 'Kyoto, Japan',
+    period: 'Sep 2023 - Feb 2024',
+    description: 'Complement fundation in astronomy from cosmology, stellar physics to planetary physics',
     achievements: [
-      'Scored 95% in Chemistry',
-      'State-level Science Olympiad finalist',
-      'Best Science Student Award'
+      'Undergraduate research intern on astronomical image reduction from Seimei telescope'
     ]
   }
 ];

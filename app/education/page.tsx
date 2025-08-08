@@ -4,8 +4,8 @@ import PageHeader from '@/components/common/PageHeader';
 import EducationTimeline from '@/components/education/EducationTimeline';
 
 export const metadata: Metadata = {
-	title: 'Education | Jhon Doe',
-	description: 'Explore Jhon Doe\'s academic journey, qualifications, and achievements in the field of chemistry.',
+	title: 'Education | Zhuoya Cao',
+	description: 'Explore Zhuoya Cao\'s academic journey, qualifications, and achievements in the field of astronomy.',
 };
 
 export default function EducationPage() {
@@ -14,7 +14,7 @@ export default function EducationPage() {
 			<SectionContainer>
 				<PageHeader
 					title="Education"
-					description="My academic journey and qualifications in the field of chemistry."
+					description="My academic journey and qualifications in the field of astronomy."
 				/>
 
 				<EducationTimeline />

@@ -4,8 +4,8 @@ import PageHeader from '@/components/common/PageHeader';
 import CertificateGrid from '@/components/certificates/CertificateGrid';
 
 export const metadata: Metadata = {
-	title: 'Certificates | Jhon Doe',
-	description: 'View academic and professional certificates earned by Jhon Doe in the field of chemistry.',
+	title: 'Certificates | Zhuoya Cao',
+	description: 'View academic and professional certificates earned by Zhuoya Cao as a young scholar.',
 };
 
 export default function CertificatesPage() {
@@ -14,7 +14,7 @@ export default function CertificatesPage() {
 			<SectionContainer>
 				<PageHeader
 					title="Certificates"
-					description="Academic and professional certifications showcasing my expertise and continuous learning in chemistry."
+					description="Academic certifications and awards showcasing my expertise and continuous learning in science."
 				/>
 
 				<CertificateGrid />

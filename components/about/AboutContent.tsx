@@ -24,8 +24,8 @@ export default function AboutContent() {
 					/>
 					<div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
 					<div className="absolute bottom-0 left-0 p-6">
-						<h3 className="text-xl font-semibold mb-2">Jhon Doe</h3>
-						<p className="text-muted-foreground">M.Sc. Chemistry Student</p>
+						<h3 className="text-xl font-semibold mb-2">Zhuoya Cao</h3>
+						<p className="text-muted-foreground">B.Sc. Astronomy Student</p>
 					</div>
 				</div>
 			</motion.div>
@@ -40,11 +40,11 @@ export default function AboutContent() {
 				<h2 className="text-3xl font-bold mb-6">About Me</h2>
 
 				<p className="text-muted-foreground">
-					Hello! I'm Jhon Doe, a passionate M.Sc. Chemistry student from West Bengal, India, with a deep interest in research and innovation in chemical sciences. My academic journey has been driven by curiosity and a desire to contribute to sustainable solutions through chemistry.
+					Hello! I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
 				</p>
 
 				<p className="text-muted-foreground">
-					During my studies, I've focused on organic chemistry and material science, working on projects that aim to develop eco-friendly alternatives to conventional chemical processes. I believe in the power of chemistry to address real-world challenges.
+					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
 				</p>
 
 				<div className="grid grid-cols-2 gap-4 my-8">
