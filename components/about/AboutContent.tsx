@@ -16,8 +16,8 @@ export default function AboutContent() {
 			>
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="https://images.pexels.com/photos/3772511/pexels-photo-3772511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-						alt="Jhon Doe in lab"
+						src="https://github.com/YLiuPhantom/myastronomy.github.io/tree/main/components/about/ZhuoyaFrontpage.jpeg"
+						alt="Zhuoya Cao"
 						width={600}
 						height={800}
 						className="object-cover w-full h-[500px]"
