@@ -67,7 +67,7 @@ export default function AboutContent() {
 				</div>
 
 				<p className="text-muted-foreground">
-					I'm currently seeking opportunities to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of chemistry.
+					I'm currently seeking graduate positions to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of astronomy.
 				</p>
 
 				<CVButton />
