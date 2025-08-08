@@ -50,7 +50,7 @@ export default function Navbar() {
               href="/"
               className="text-xl md:text-2xl font-bold text-primary"
             >
-              Jhon Doe
+              Zhuoya Cao
             </Link>
           </div>
 
