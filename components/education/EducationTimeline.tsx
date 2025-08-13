@@ -7,13 +7,13 @@ import { cn } from '@/lib/utils';
 const educationData = [
   {
     id: 1,
-    degree: 'Research Associate in Astronomy',
+    degree: 'Research Assistant in Astronomy',
     institution: 'Westlake University',
     location: 'Hangzhou, China',
     period: 'Jun 2025 - Present',
     description: 'Specializing in theoretical astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks.',
     achievements: [
-      'Presented at 2025 Science Meeting of the Earth 2.0 Apace Mission'
+      'Poster presented at 2025 Science Meeting of the Earth 2.0 Apace Mission'
     ]
   },
   {
@@ -25,7 +25,7 @@ const educationData = [
     description: 'Comprehensive foundation in astronomy and dynamics, incl. fluid mechanics and N-body dynamics.',
     achievements: [
       'Full GPA for astronomy courses (4.0/4.0)',
-      'Scholarship for Comprehensive Excellence of Tsinghua Univ.',
+      'Scholarship for Comprehensive Excellence of Tsinghua University',
       'Tsinghua Xuetang Scholarship (for Tsien Excellence Program)',
       'Undergraduate research project on planetary dynamics and super resolution'
     ]

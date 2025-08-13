@@ -60,7 +60,7 @@ export const contactInfo = {
 	phone: "+86 151 5110 9716",
 	address: "Westlake University, Hangzhou, China 310000",
 	socialMedia: {
-		linkedin: "https://linkedin.com",
+		linkedin: "https://www.linkedin.com/in/zhuoya-cao-51a687337/",
 		twitter: "https://twitter.com",
 		github: "https://github.com/Caozy21"
 	}
