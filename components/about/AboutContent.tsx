@@ -16,7 +16,7 @@ export default function AboutContent() {
 			>
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="./ZhuoyaFrontpage.jpeg"
+						src="./ZhuoyaFrontpage.jpg"
 						alt="Zhuoya Cao"
 						width={600}
 						height={800}
