@@ -33,7 +33,7 @@ export default function Footer() {
 								<span className="sr-only">GitHub</span>
 							</Link>
 							<Link
-								href="https://linkedin.com"
+								href="https://www.linkedin.com/in/zhuoya-cao-51a687337/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-muted-foreground hover:text-primary transition-colors"
@@ -84,6 +84,14 @@ export default function Footer() {
 									className="text-sm text-muted-foreground hover:text-primary transition-colors"
 								>
 									Projects
+								</Link>
+							</li>
+							<li>
+								<Link
+									href="/posts"
+									className="text-sm text-muted-foreground hover:text-primary transition-colors"
+								>
+									Posts
 								</Link>
 							</li>
 							<li>
