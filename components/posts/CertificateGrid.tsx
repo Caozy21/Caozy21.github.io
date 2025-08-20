@@ -16,11 +16,11 @@ import {
 const certificates = [
   {
     id: 1,
-    title: 'Advanced Organic Chemistry',
-    issuer: 'American Chemical Society',
-    date: 'December 2023',
-    description: 'Comprehensive course covering advanced concepts in organic synthesis and reaction mechanisms.',
-    imageUrl: 'https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg',
+    title: 'Cheer for the ET conference!',
+    issuer: 'My first academic conference adventure',
+    date: 'August 10th, 2025',
+    description: 'Happy to attend the annual meeting of the Earth 2.0 (ET) space mission at Shanghai, China. Met experts in the field and learned about the latest advancements in microlensing, planetary dynamics and beyond. Proud to share my research about Oort cloud comets dynamics at the poster session. Excited to connect with fellow researchers for space exploration -- the future is bright! \n P.S. love the food in Shanghai!',
+    imageUrl: './ETconference.jpg',
     credential: 'CERT-AOC-2023-1234'
   },
   {
