@@ -12,6 +12,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 const certificates = [
   {
@@ -97,7 +98,7 @@ export default function CertificateGrid() {
               <DialogHeader>
                 <DialogTitle>{cert.title}</DialogTitle>
                 <DialogDescription className="text-muted-foreground">
-                  Issued by {cert.issuer}
+                  {cert.issuer}
                 </DialogDescription>
               </DialogHeader>
               
@@ -110,21 +111,23 @@ export default function CertificateGrid() {
                 />
               </div>
               
-              <div className="space-y-4">
-                <p className="text-muted-foreground">
-                  {cert.description}
-                </p>
-                
-                <div className="bg-muted/50 p-3 rounded-md">
-                  <p className="text-sm font-medium">Credential ID:</p>
-                  <p className="text-sm text-muted-foreground">{cert.credential}</p>
+              <ScrollArea className="h-[400px] pr-4">
+                <div className="space-y-4 pb-4">
+                  <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
+                    {cert.description}
+                  </p>
+                  
+                  {/* <div className="bg-muted/50 p-3 rounded-md">
+                    <p className="text-sm font-medium">Credential ID:</p>
+                    <p className="text-sm text-muted-foreground">{cert.credential}</p>
+                  </div> */}
+                  
+                  {/* <Button className="w-full">
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Verify Certificate
+                  </Button> */}
                 </div>
-{/*                 
-                <Button className="w-full">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Verify Certificate
-                </Button> */}
-              </div>
+              </ScrollArea>
             </DialogContent>
           </Dialog>
         </motion.div>
