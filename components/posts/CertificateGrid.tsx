@@ -102,16 +102,16 @@ export default function CertificateGrid() {
                 </DialogDescription>
               </DialogHeader>
               
-              <div className="relative h-48 my-4">
-                <Image
-                  src={cert.imageUrl}
-                  alt={cert.title}
-                  fill
-                  className="object-cover rounded-md"
-                />
-              </div>
-              
               <ScrollArea className="h-[400px] pr-4">
+                <div className="relative h-48 my-4">
+                  <Image
+                    src={cert.imageUrl}
+                    alt={cert.title}
+                    fill
+                    className="object-cover rounded-md"
+                  />
+                </div>
+              
                 <div className="space-y-4 pb-4">
                   <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
                     {cert.description}
