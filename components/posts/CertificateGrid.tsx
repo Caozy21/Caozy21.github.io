@@ -26,30 +26,12 @@ const certificates = [
   },
   {
     id: 2,
-    title: 'Laboratory Safety Certification',
-    issuer: 'Royal Society of Chemistry',
-    date: 'October 2023',
-    description: 'Professional certification in chemical laboratory safety protocols and best practices.',
-    imageUrl: 'https://images.pexels.com/photos/8325710/pexels-photo-8325710.jpeg',
+    title: 'Graduated from Tsinghua University ❤',
+    issuer: 'Say goodbye to my alma mater',
+    date: 'Jun 21st, 2025',
+    description: 'Graduated from Tsinghua University with a Bachelor of Science in Mechanics and Astronomy. Grateful for the support of my professors, friends, family, and myself throughout this journey. Sad and unwilling to leave my alma mater who embraces all my laugh and tear, but I will be confident to move on to my next stop. Also excited to continue my studies in astrophysics and contribute to our understanding of the universe:)',
+    imageUrl: './THUgraduation.jpg',
     credential: 'LSC-2023-5678'
-  },
-  {
-    id: 3,
-    title: 'Green Chemistry Principles',
-    issuer: 'International Union of Pure and Applied Chemistry',
-    date: 'August 2023',
-    description: 'Certification in sustainable chemistry practices and environmental considerations in chemical processes.',
-    imageUrl: 'https://images.pexels.com/photos/5726706/pexels-photo-5726706.jpeg',
-    credential: 'GCP-2023-9012'
-  },
-  {
-    id: 4,
-    title: 'Analytical Techniques in Chemistry',
-    issuer: 'Indian Chemical Society',
-    date: 'June 2023',
-    description: 'Advanced training in modern analytical methods and instrumentation techniques.',
-    imageUrl: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg',
-    credential: 'ATC-2023-3456'
   }
 ];
 
