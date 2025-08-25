@@ -26,6 +26,15 @@ const certificates = [
   },
   {
     id: 2,
+    title: 'Starting my journey at Westlake University',
+    issuer: 'Research like a "pro" in an international environment as a research assistant',
+    date: 'Jun 29th, 2025',
+    description: 'Just launched my research internship at Westlake University as a research assistant! Super excited to work with Prof. Shude Mao and Prof. Douglas Lin on dynamics in a viscous protoplanetary disk. Expecting a fruitful year of learning and growth in this vibrant academic environment. \n \n Looking forward to contributing to cutting-edge research and expanding my horizons in astrophysics -- Here\'s to a great start at Westlake University!',
+    imageUrl: './Westlake.jpg',
+    credential: 'LSC-2023-5678'
+  },
+  {
+    id: 3,
     title: 'Graduated from Tsinghua University',
     issuer: 'Say goodbye to my alma mater',
     date: 'Jun 21st, 2025',
@@ -34,7 +43,7 @@ const certificates = [
     credential: 'LSC-2023-5678'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Half-year research internship at Harvard-CfA',
     issuer: 'Exploring the universe with the best minds in the universe',
     date: 'Feb 20th, 2025',
