@@ -20,17 +20,26 @@ const certificates = [
     title: 'Cheer for the ET conference!',
     issuer: 'My first academic conference adventure',
     date: 'August 10th, 2025',
-    description: 'Happy to attend the annual meeting of the Earth 2.0 (ET) space mission at Shanghai, China. Met experts in the field and learned about the latest advancements in microlensing, planetary dynamics and beyond. Proud to share my research about Oort cloud comets dynamics at the poster session. Excited to connect with fellow researchers for space exploration -- the future is bright! \n P.S. love the food in Shanghai!',
+    description: 'Happy to attend the annual meeting of the Earth 2.0 (ET) space mission at Shanghai, China. Met experts in the field and learned about the latest advancements in microlensing, planetary dynamics and beyond. Proud to share my research about Oort cloud comets dynamics at the poster session. Excited to connect with fellow researchers for space exploration -- the future is bright! \n \n P.S. love the food in Shanghai!',
     imageUrl: './ETconference.jpg',
     credential: 'CERT-AOC-2023-1234'
   },
   {
     id: 2,
-    title: 'Graduated from Tsinghua University ❤',
+    title: 'Graduated from Tsinghua University',
     issuer: 'Say goodbye to my alma mater',
     date: 'Jun 21st, 2025',
-    description: 'Graduated from Tsinghua University with a Bachelor of Science in Mechanics and Astronomy. Grateful for the support of my professors, friends, family, and myself throughout this journey. Sad and unwilling to leave my alma mater who embraces all my laugh and tear, but I will be confident to move on to my next stop. Also excited to continue my studies in astrophysics and contribute to our understanding of the universe:)',
+    description: 'Graduated from Tsinghua University with a Bachelor of Science in Mechanics and Astronomy. \n \n Grateful for the support of my professors, friends, family, and myself throughout this journey. Sad and unwilling to leave my alma mater who embraces all my laugh and tear, but I will be confident to move on to my next stop. Also excited to continue my studies in astrophysics and contribute to our understanding of the universe:)',
     imageUrl: './THUgraduation.jpg',
+    credential: 'LSC-2023-5678'
+  },
+  {
+    id: 3,
+    title: 'Half-year research internship at Harvard-CfA',
+    issuer: 'Exploring the universe with the best minds in the universe',
+    date: 'Feb 20th, 2025',
+    description: 'Story at Harvard-Smithsonian Center for Astrophysics (CfA) as a research intern is coming to an end! Worked with Prof. Avi Loeb and Dr. Morgan Macleod on dynamics of the Oort cloud perturbed by a stellar flyby. Gained hands-on experience in theoretical modelling, N-body simulations, and scientific writing. \n \n Engaged in brilliant seminars, lectures and group meetings to broaden my knowledge in astrophysics. Love the vibrant academic atmosphere and the beautiful campus at Harvard CfA. Thanks, Avi and Morgan for your support throughout my internship! Keep in touch and looking forward to future connections.',
+    imageUrl: './Harvard.jpg',
     credential: 'LSC-2023-5678'
   }
 ];
