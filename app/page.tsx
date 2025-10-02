@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import Hero from '@/components/home/Hero';
-import AboutContent from '@/components/about/AboutContent';
+import AboutContent_Frontpage from '@/components/about/AboutContent_Frontpage';
 import SectionContainer from '@/components/common/SectionContainer';
 import PageHeader from '@/components/common/PageHeader';
 import AnimatedBackground from '@/components/common/AnimatedBackground';
@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       
       <SectionContainer id="about" className="bg-background">
-        <AboutContent />
+        <AboutContent_Frontpage />
       </SectionContainer>
       
       <SectionContainer className="bg-muted/30">

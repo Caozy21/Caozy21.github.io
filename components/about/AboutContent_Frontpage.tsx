@@ -37,17 +37,17 @@ export default function AboutContent() {
 				viewport={{ once: true }}
 				className="space-y-6"
 			>
-				<h2 className="text-xl font-bold mb-6">Hello!</h2>
+				<h2 className="text-3xl font-bold mb-6">About Me</h2>
 
 				<p className="text-muted-foreground">
-					I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
+					Hello! I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
+				</p>
+
+				<p className="text-muted-foreground">
+					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
 				</p>
 
 				{/* <p className="text-muted-foreground">
-					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
-				</p> */}
-
-				<p className="text-muted-foreground">
 					My fate with astronomy began in junior high years with the microfilm of "Journal to the Stars", a story about a boy chasing his dream of becoming an astrophysicist. I was fascinated by the world inside the telescope that most people may never see or imagine. I did not have the chance to buy a telescope then, but the starry night sky somehow rooted astrophysics in my heart. I went for physics Olympics in high school, and was later studying mechanics in Tsinghua with astronomy as my minor. 
 				</p>
 
@@ -61,8 +61,8 @@ export default function AboutContent() {
 
 				<p className="text-muted-foreground">
 					In my part time, I am a fan of singing, nice food and traveling. I am also a beginner in photography and Japanese. I enjoy exploring new things and challenging myself.
-				</p>
-				{/* <div className="grid grid-cols-2 gap-4 my-8">
+				</p> */}
+				<div className="grid grid-cols-2 gap-4 my-8">
 					<div className="flex flex-col items-center bg-card p-4 rounded-lg shadow-sm">
 						<Flask className="h-10 w-10 text-chart-1 mb-2" />
 						<h3 className="font-medium">Research</h3>
@@ -79,11 +79,11 @@ export default function AboutContent() {
 						<Heart className="h-10 w-10 text-chart-4 mb-2" />
 						<h3 className="font-medium">Passion</h3>
 					</div>
-				</div> */}
+				</div>
 
-				{/* <p className="text-muted-foreground">
+				<p className="text-muted-foreground">
 					I'm currently seeking graduate positions to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of astronomy.
-				</p> */}
+				</p>
 
 				<CVButton />
 			</motion.div>
