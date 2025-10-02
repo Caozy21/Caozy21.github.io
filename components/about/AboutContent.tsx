@@ -22,6 +22,16 @@ export default function AboutContent() {
 					I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
 				</p>
 				
+				
+
+				{/* <p className="text-muted-foreground">
+					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
+				</p> */}
+
+				<p className="text-muted-foreground">
+					My fate with astronomy began in junior high years with the microfilm of "Journal to the Stars", a story about a boy chasing his dream of becoming an astrophysicist. I was fascinated by the world inside the telescope that most people may never see or imagine. I did not have the chance to buy a telescope then, but the starry night sky somehow rooted astrophysics in my heart. I went for physics Olympics in high school, and was later studying mechanics in Tsinghua with astronomy as my minor. 
+				</p>
+
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
 						src="./ZhuoyaFrontpage.jpg"
@@ -31,14 +41,6 @@ export default function AboutContent() {
 						className="object-cover w-full h-[400px] scale-[0.8]"
 					/>
 				</div>
-
-				{/* <p className="text-muted-foreground">
-					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
-				</p> */}
-
-				<p className="text-muted-foreground">
-					My fate with astronomy began in junior high years with the microfilm of "Journal to the Stars", a story about a boy chasing his dream of becoming an astrophysicist. I was fascinated by the world inside the telescope that most people may never see or imagine. I did not have the chance to buy a telescope then, but the starry night sky somehow rooted astrophysics in my heart. I went for physics Olympics in high school, and was later studying mechanics in Tsinghua with astronomy as my minor. 
-				</p>
 
 				<p className="text-muted-foreground">
 					In my undergraduate years, I participated in multiple research projects from N-body dynamics in solar system to hydrodynamics in protoplanetary disks -- enjoying a taste combining mechanics and astronomy contexts. I awed at how most basic mechanics principles could be applied to understand the complex dynamics of solar system, Oort cloud and protoplanetary disks.
