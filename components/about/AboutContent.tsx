@@ -13,6 +13,7 @@ export default function AboutContent() {
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.8 }}
 				viewport={{ once: true }}
+				className="w-full lg:w-1/2 mx-auto"
 			>
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
@@ -42,7 +43,8 @@ export default function AboutContent() {
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.8, delay: 0.2 }}
 				viewport={{ once: true }}
-				className="space-y-6"
+				// className="space-y-6"
+				className="w-full lg:w-1/2 mx-auto space-y-6"
 			>
 				<h2 className="text-xl font-bold mb-6">Hello!</h2>
 
