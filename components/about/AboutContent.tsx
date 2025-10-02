@@ -7,7 +7,7 @@ import CVButton from '@/components/common/CVButton';
 
 export default function AboutContent() {
 	return (
-		<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+		<div className="grid grid-cols-1 lg:grid-cols-1 gap-12 items-center">
 			<motion.div
 				initial={{ opacity: 0, x: -20 }}
 				whileInView={{ opacity: 1, x: 0 }}
@@ -22,11 +22,18 @@ export default function AboutContent() {
 						height={800}
 						className="object-cover w-full h-[500px]"
 					/>
-					<div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
+					<Image
+						src="./ZhuoyaFrontpage.jpg"
+						alt="Zhuoya Cao"
+						width={600}
+						height={800}
+						className="object-cover w-full h-[500px]"
+					/>
+					{/* <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
 					<div className="absolute bottom-0 left-0 p-6">
 						<h3 className="text-xl font-semibold mb-2">Zhuoya Cao</h3>
 						<p className="text-muted-foreground">B.Sc. Astronomy Student</p>
-					</div>
+					</div> */}
 				</div>
 			</motion.div>
 
