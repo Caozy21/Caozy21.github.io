@@ -21,14 +21,14 @@ export default function AboutContent() {
 						alt="Zhuoya Cao"
 						width={600}
 						height={800}
-						className="object-cover w-full h-[500px]"
+						className="object-cover w-full h-[500px] scale-[0.8]"
 					/>
 					<Image
 						src="./ZhuoyaFrontpage.jpg"
 						alt="Zhuoya Cao"
 						width={600}
 						height={800}
-						className="object-cover w-full h-[500px]"
+						className="object-cover w-full h-[500px] scale-[0.8]"
 					/>
 					{/* <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
 					<div className="absolute bottom-0 left-0 p-6">
@@ -39,7 +39,7 @@ export default function AboutContent() {
 			</motion.div>
 
 			<motion.div
-				initial={{ opacity: 0, x: 20 }}
+				initial={{ opacity: 0, x: 0 }}
 				whileInView={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.8, delay: 0.2 }}
 				viewport={{ once: true }}
@@ -51,6 +51,16 @@ export default function AboutContent() {
 				<p className="text-muted-foreground">
 					I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
 				</p>
+				
+				<div className="relative rounded-lg overflow-hidden shadow-xl">
+					<Image
+						src="./ZhuoyaFrontpage.jpg"
+						alt="Zhuoya Cao"
+						width={600}
+						height={800}
+						className="object-cover w-full h-[500px] scale-[0.8]"
+					/>
+				</div>
 
 				{/* <p className="text-muted-foreground">
 					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
@@ -63,6 +73,16 @@ export default function AboutContent() {
 				<p className="text-muted-foreground">
 					In my undergraduate years, I participated in multiple research projects from N-body dynamics in solar system to hydrodynamics in protoplanetary disks -- enjoying a taste combining mechanics and astronomy contexts. I awed at how most basic mechanics principles could be applied to understand the complex dynamics of solar system, Oort cloud and protoplanetary disks.
 				</p>
+
+				<div className="relative rounded-lg overflow-hidden shadow-xl">
+					<Image
+						src="./ZhuoyaFrontpage.jpg"
+						alt="Zhuoya Cao"
+						width={600}
+						height={800}
+						className="object-cover w-full h-[500px] scale-[0.8]"
+					/>
+				</div>
 
 				<p className="text-muted-foreground">
 					Thanks to my brilliant advisors and precious fellowship, I had the opportunity to intern at Harvard Center for Astrophysics in 2024 fall with Prof. Avi Loeb, and do research assistantship at Westlake University in 2025 with Prof. Shude Mao and Prof. Doug Lin. I also went to the ET 2.0 Conference, Shanghai to present my work on Oort cloud dynamics. These experiences helped me to see a broader astronomy society beyond my computer and sharpen my research skills as a young astronomer.
