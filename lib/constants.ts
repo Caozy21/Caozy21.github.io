@@ -33,7 +33,7 @@ export const projects = [
 		imageUrl: "./oort.jpg",
 		date: "Sep 2024 - Feb 2025",
 		collaborators: ["Prof. Abraham Loeb", "Dr. Morgan Macleod"],
-		link: "#"
+		link: "https://github.com/Caozy21/flyby-comet-impact"
 	},
 	{
 		id: 5,
