@@ -34,7 +34,7 @@ export default function AboutContent() {
 
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="./ZhuoyaFrontpage.jpg"
+						src="./Xinglong.jpg"
 						alt="Zhuoya Cao"
 						width={600}
 						height={800}
@@ -46,13 +46,23 @@ export default function AboutContent() {
 					In my undergraduate years, I participated in multiple research projects from N-body dynamics in solar system to hydrodynamics in protoplanetary disks -- enjoying a taste combining mechanics and astronomy contexts. I awed at how most basic mechanics principles could be applied to understand the complex dynamics of solar system, Oort cloud and protoplanetary disks.
 				</p>
 
+				<div className="relative rounded-lg overflow-hidden shadow-xl">
+					<Image
+						src="./ResearchExperience.jpg"
+						alt="Zhuoya Cao"
+						width={600}
+						height={800}
+						className="object-cover w-full h-[400px] scale-[0.8]"
+					/>
+				</div>
+
 				<p className="text-muted-foreground">
 					Thanks to my brilliant advisors and precious fellowship, I had the opportunity to intern at Harvard Center for Astrophysics in 2024 fall with Prof. Avi Loeb, and do research assistantship at Westlake University in 2025 with Prof. Shude Mao and Prof. Doug Lin. I also went to the ET 2.0 Conference, Shanghai to present my work on Oort cloud dynamics. These experiences helped me to see a broader astronomy society beyond my computer and sharpen my research skills as a young astronomer.
 				</p>
 
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="./ETconference.jpg"
+						src="./ZhuoyaFrontpage.jpg"
 						alt="Zhuoya Cao"
 						width={600}
 						height={800}
