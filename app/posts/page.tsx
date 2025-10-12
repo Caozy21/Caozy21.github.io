@@ -5,7 +5,7 @@ import CertificateGrid from '@/components/posts/CertificateGrid';
 
 export const metadata: Metadata = {
 	title: 'Posts | Zhuoya Cao',
-	description: 'View posts by Zhuoya Cao as a young scholar.',
+	description: 'View posts by Zhuoya Cao as a young astronomy scholar.',
 };
 
 export default function CertificatesPage() {
