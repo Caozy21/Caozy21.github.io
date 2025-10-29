@@ -19,11 +19,11 @@ export const projects = [
 	},
 	{
 		id: 3,
-		title: "Planet Migration on a Protoplanetary Disk with Ring-shaped Dead Zone",
+		title: "Convergent and Divergent Planet Migration Driven by a Dead Zone in Protoplanetary Disks",
 		description: "Conducted simulations on migration of planets on a protoplanetary disk with ring shaped dead zone by Athena++. Reveal xxx as a possible mechanism to stop gas giant migration. Image credit: Center for Astrophysics | Harvard & Smithsonian.",
 		imageUrl: "./protoplanetary_disk.jpeg",
 		date: "May 2025 - Present",
-		collaborators: ["Prof. Douglas N.C. Lin", "Dr. Yaping Li"],
+		collaborators: ["Prof. Douglas N.C. Lin", "Dr. Yaping Li", "Prof. Shude Mao"],
 		link: "#"
 	},
 	{
