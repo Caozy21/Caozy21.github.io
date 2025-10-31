@@ -17,6 +17,15 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const certificates = [
   {
     id: 1,
+    title: '\'Hello world\' from Westlake Astronomy',
+    issuer: 'At the inauguration ceremony of Westlake Department of Astronomy',
+    date: 'October 18th, 2025',
+    description: 'Thrilled to be part of the inauguration ceremony of Department of Astronomy at Westlake University! As a volunteer for the event, I am honored and excited to meet distinguished guests including Prof. Doug Lin, Prof. Shigeru Ida, Prof. Ewine van Dishoeck, Prof. Brian Schmidt! Rewarding and unforgettable to chat with the great minds in astronomy. Go Westlake Astronomy!',
+    imageUrl: './Westlake_inauguration.jpg',
+    credential: 'CERT-AOC-2023-1234'
+  },
+  {
+    id: 2,
     title: 'Cheer for the ET conference!',
     issuer: 'My first academic conference adventure',
     date: 'August 10th, 2025',
@@ -25,7 +34,7 @@ const certificates = [
     credential: 'CERT-AOC-2023-1234'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Starting my journey at Westlake University',
     issuer: 'Research like a "pro" in an international environment as a research assistant',
     date: 'Jun 29th, 2025',
@@ -34,7 +43,7 @@ const certificates = [
     credential: 'LSC-2023-5678'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Graduated from Tsinghua University',
     issuer: 'Say goodbye to my alma mater',
     date: 'Jun 21st, 2025',
@@ -43,7 +52,7 @@ const certificates = [
     credential: 'LSC-2023-5678'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Half-year research internship at Harvard-CfA',
     issuer: 'Exploring the universe with the best minds in the universe',
     date: 'Feb 20th, 2025',
