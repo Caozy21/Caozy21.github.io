@@ -10,11 +10,11 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "Launching Mechanism for FFPs from Host Stars with Cometary Companions and Close-in Planets",
+		title: "Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets",
 		description: "Conducted REBOUNDx simulation to test the influence of tides on the production of FFPs from the host stars with cometary companions and close-in planets. Deduced a theoretical model to explain the tide influence on such systems. Image credit: the European Southern Observatory.",
 		imageUrl: "./free_floating.jpg",
 		date: "May 2025 - Sep 2025",
-		collaborators: ["Prof. Douglas N.C. Lin", "Prof. Shigeru Ida", "Dr. Xiaochen Zheng"],
+		collaborators: ["Prof. Douglas N.C. Lin", "Prof. Shigeru Ida", "Dr. Xiaochen Zheng", "Prof. Shude Mao"],
 		link: "#"
 	},
 	{
