@@ -15,7 +15,7 @@ export const projects = [
 		imageUrl: "./free_floating.jpg",
 		date: "May 2025 - Sep 2025",
 		collaborators: ["Prof. Douglas N.C. Lin", "Prof. Shigeru Ida", "Dr. Xiaochen Zheng", "Prof. Shude Mao"],
-		link: "#"
+		link: "https://github.com/Caozy21/free-floater"
 	},
 	{
 		id: 3,
@@ -24,7 +24,7 @@ export const projects = [
 		imageUrl: "./protoplanetary_disk.jpeg",
 		date: "May 2025 - Present",
 		collaborators: ["Prof. Douglas N.C. Lin", "Dr. Yaping Li", "Prof. Shude Mao"],
-		link: "#"
+		link: "https://github.com/Caozy21/athena_analysis_code"
 	},
 	{
 		id: 4,
@@ -51,7 +51,7 @@ export const projects = [
 		imageUrl: "./galaxy.jpg",
 		date: "Feb 2025 - Jun 2025",
 		collaborators: ["Prof. Zheng Cai", "Fujiang Yu"],
-		link: "#"
+		link: "https://github.com/Caozy21/astro-super-resolution"
 	}
 ];
 
