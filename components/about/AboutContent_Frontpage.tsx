@@ -44,7 +44,7 @@ export default function AboutContent() {
 				</p>
 
 				<p className="text-muted-foreground">
-					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations of planetary systems.
+					My research interest lies in dynamics of planetary systems, including rich interactions between a planet and other planets, stellar flybys, and protoplanetary disks. I am currently working with Prof. Shude Mao and Prof. Douglas N.C. Lin on simulations and theories of planetary systems.
 				</p>
 
 				{/* <p className="text-muted-foreground">
