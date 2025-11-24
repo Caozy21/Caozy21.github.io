@@ -2,7 +2,7 @@ export const projects = [
 	{
 		id: 1,
 		title: "Prolific Nitrogen Production and Metallicity Gradient in AGN Accretion Disk",
-		description: "Constructing an idealized diffusion model to show that multiple generation of stars leads to fast N-enrichment with an abundance gradient in the AGN disks. Image credit: NASA | Dana Berry, SkyWorks Digital.",
+		description: "Constructing an idealized diffusion model to show that multiple generation of stars leads to fast N-enrichment with an abundance gradient in the AGN disks. Image credit: ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimeter); NASA/CXC/CfA/R.Kraft et al. (X-ray).",
 		imageUrl: "./AGNdisk.jpg",
 		date: "Nov 2025 - Present",
 		collaborators: ["Prof. Douglas N.C. Lin","Dr. Tingtao Zhou","Jiamu Huang"],
@@ -38,7 +38,7 @@ export const projects = [
 	{
 		id: 5,
 		title: "Comet Shower at the Pliocene-Pleistocene Transition Triggered by a Stellar Fly-by",
-		description: "Conducted numerous simulations on Oort cloud and stellar flyby by REBOUND package, revealed and explained the Oort cloud behaviors during single and binary star invasions. Theoretically explained a possible comet shower caused by HD 7977’s flyby 3 Myr ago, analyzed comet duration, intensity, and its impact on the ancient Earth. Collected geographic evidence of craters and comet components, revealing that this comet shower could be the cause of the Pliocene-Pleistocene Transition. Image credit: AAAS | Science.",
+		description: "Conducted numerous simulations on Oort cloud and stellar flyby by REBOUND package, revealed and explained the Oort cloud behaviors of a possible comet shower 3 Myr ago during the flyby of star HD7977, analyzed comet duration, intensity, and its impact on the ancient Earth. Collected geographic evidence of craters and comet components, revealing that this comet shower could be the cause of the Pliocene-Pleistocene Transition. Image credit: AAAS | Science.",
 		imageUrl: "./oort.jpg",
 		date: "Sep 2024 - Feb 2025",
 		collaborators: ["Prof. Abraham Loeb", "Dr. Morgan Macleod"],

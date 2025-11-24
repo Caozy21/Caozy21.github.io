@@ -11,7 +11,7 @@ const educationData = [
     institution: 'Westlake University',
     location: 'Hangzhou, China',
     period: 'Jun 2025 - Present',
-    description: 'Specializing in theoretical astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks.',
+    description: 'Specializing in theoretical and simulation astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks and AGN accretion disks.',
     achievements: [
       'Poster presented at 2025 Science Meeting of the Earth 2.0 Apace Mission',
       'Posters to be presented at the 2025 International Conference on Exoplanets and Planet Formation & the 247th AAS Meeting',
