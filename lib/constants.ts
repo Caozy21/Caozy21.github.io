@@ -24,7 +24,8 @@ export const projects = [
 		imageUrl: "./free_floating.jpg",
 		date: "May 2025 - Sep 2025",
 		collaborators: ["Prof. Douglas N.C. Lin", "Prof. Shigeru Ida", "Dr. Xiaochen Zheng", "Prof. Shude Mao"],
-		link: "https://github.com/Caozy21/free-floater"
+		link: "https://github.com/Caozy21/free-floater",
+		videolink: "https://youtu.be/slES5eiAJCc"
 	},
 	{
 		id: 4,
@@ -33,7 +34,8 @@ export const projects = [
 		imageUrl: "./protoplanetary_disk.jpeg",
 		date: "May 2025 - Nov 2025",
 		collaborators: ["Prof. Douglas N.C. Lin", "Dr. Yaping Li", "Prof. Shude Mao"],
-		link: "https://github.com/Caozy21/athena_analysis_code"
+		link: "https://github.com/Caozy21/athena_analysis_code",
+		videolink: "https://youtu.be/oT3XJJG4kk4"
 	},
 	{
 		id: 5,
@@ -42,7 +44,8 @@ export const projects = [
 		imageUrl: "./oort.jpg",
 		date: "Sep 2024 - Feb 2025",
 		collaborators: ["Prof. Abraham Loeb", "Dr. Morgan Macleod"],
-		link: "https://github.com/Caozy21/flyby-comet-impact"
+		link: "https://github.com/Caozy21/flyby-comet-impact",
+		videolink: "https://youtu.be/ZfS1Fp7Nnho"
 	},
 	{
 		id: 6,

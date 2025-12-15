@@ -13,6 +13,7 @@ interface ProjectCardProps {
   date: string;
   collaborators: string[];
   link?: string;
+  videolink?: string;
   index: number;
 }
 
@@ -23,6 +24,7 @@ export default function ProjectCard({
   date,
   collaborators,
   link,
+  videolink,
   index,
 }: ProjectCardProps) {
   return (
@@ -63,17 +65,36 @@ export default function ProjectCard({
           <p className="text-muted-foreground">{description}</p>
         </div>
         
-        {link && (
-          <Link 
-            href={link} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
-          >
-            View Project Details
-            <ExternalLink className="ml-1 h-3 w-3" />
-          </Link>
-        )}
+        <div> 
+  
+          {/* 1. View Project Details 链接 (link) */}
+          {link && (
+              <Link 
+                  href={link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors mb-2"
+              >
+                  View Project Details
+                  <ExternalLink className="ml-1 h-3 w-3" />
+              </Link>
+          )}
+
+          {/* 2. Talk Video 链接 (videolink) */}
+          {videolink && (
+              <Link 
+                  href={videolink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+              >
+                  Talk Video
+                  <ExternalLink className="ml-1 h-3 w-3" />
+              </Link>
+          )}
+
+        </div>
+
       </div>
     </motion.div>
   );

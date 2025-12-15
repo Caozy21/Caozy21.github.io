@@ -83,7 +83,7 @@ export default function Footer() {
 									href="/projects"
 									className="text-sm text-muted-foreground hover:text-primary transition-colors"
 								>
-									Projects
+									Research
 								</Link>
 							</li>
 							<li>

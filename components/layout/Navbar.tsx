@@ -10,7 +10,7 @@ const navigationItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Education', href: '/education' },
-  { name: 'Projects', href: '/projects' },
+  { name: 'Research', href: '/projects' },
   { name: 'Posts', href: '/posts' },
   { name: 'Contact', href: '/contact' },
 ];
