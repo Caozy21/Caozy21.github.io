@@ -17,6 +17,15 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const certificates = [
   {
     id: 1,
+    title: 'Grand Science Meeting at AAS 247 Phoenix!',
+    issuer: 'The 247th American Astronomical Society (AAS) Winter Meeting',
+    date: 'January 8th, 2026',
+    description: 'Greatly privileged to attend the 247th AAS Winter Meeting and present my recent work on planet migration on protoplanetary disks! So excited to connect with many fellow researchers working in same or different subfields, and meet new and old friends in astronomy. Did not feel so close to the astronomy frontier before. Collected brilliant ideas as well as lots of souvenirs as great memories from AAS 247 Phoenix:)',
+    imageUrl: './AASconference.jpg',
+    credential: 'CERT-AOC-2023-1234'
+  },
+  {
+    id: 2,
     title: 'Presenting at ICEPF 2025!',
     issuer: 'International Conference on Exoplanets and Planet Formation (ICEPF)',
     date: 'December 8th, 2025',
@@ -25,7 +34,7 @@ const certificates = [
     credential: 'CERT-AOC-2023-1234'
   },
   {
-    id: 2,
+    id: 3,
     title: '\'Hello world\' from Westlake Astronomy',
     issuer: 'At the inauguration ceremony of Westlake Department of Astronomy',
     date: 'October 18th, 2025',
@@ -34,7 +43,7 @@ const certificates = [
     credential: 'CERT-AOC-2023-1234'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Cheer for the ET conference!',
     issuer: 'My first academic conference adventure',
     date: 'August 10th, 2025',
@@ -43,7 +52,7 @@ const certificates = [
     credential: 'CERT-AOC-2023-1234'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Starting my journey at Westlake University',
     issuer: 'Research like a "pro" in an international environment as a research assistant',
     date: 'Jun 29th, 2025',
@@ -52,7 +61,7 @@ const certificates = [
     credential: 'LSC-2023-5678'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Graduated from Tsinghua University',
     issuer: 'Say goodbye to my alma mater',
     date: 'Jun 21st, 2025',
@@ -61,7 +70,7 @@ const certificates = [
     credential: 'LSC-2023-5678'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Half-year research internship at Harvard-CfA',
     issuer: 'Exploring the universe with the best minds in the universe',
     date: 'Feb 20th, 2025',
