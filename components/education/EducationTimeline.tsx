@@ -15,16 +15,16 @@ const educationData = [
     description: 'Specializing in theoretical and simulation astronomy with focus on dynamics of planetary systems. Conducting research on evolution of protoplanetary disks and AGN accretion disks.',
     achievements: [
       'Proficient in hydrodynamic simulations using Athena++ and N-body simulations using REBOUND/REBOUNDx',
-      'Two papers in planetary dynamics under review and one accepted'
+      'Two papers in planetary dynamics published/accepted and one under review'
       ],
     publications: [
       {
-        text: 'Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal.',
+        text: 'Zhuoya Cao, Yaping Li*, Douglas N.C. Lin, Shude Mao, Planet Migration in Protoplanetary Disks with Rims, under review by the Astrophysical Journal, arXiv:2511.21328.',
         link: 'http://arxiv.org/abs/2511.21328'
       },
       {
-        text: 'Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, under review by the Astrophysical Journal.',
-        link: ''
+        text: 'Xiaochen Zheng, Zhuoya Cao*, Shigeru Ida, Douglas N.C. Lin, Shude Mao, A Robust Launching Mechanism for Freely-Floating Planets from Host Stars with Close-in Planets, accepted by the Astrophysical Journal, arXiv:2601.09835.',
+        link: 'https://arxiv.org/abs/2601.09835'
       },
       {
         text: 'Zhuoya Cao, Jiamu Huang, Douglas N.C. Lin, Tingtao Zhou, Prolific Nitrogen Production and Metallicity Gradient in AGN Accretion Disk, in preparation.',
@@ -62,7 +62,7 @@ const educationData = [
       ],
     publications: [
       {
-        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, accepted by Scientific Reports.',
+        text: 'Zhuoya Cao*, Abraham Loeb, Morgan MacLeod, On the coincidence between the close passage of HD7977 and the Pliocene-Pleistocene transition, Scientific Reports 16, 115 (2026).',
         link: 'https://www.nature.com/articles/s41598-025-29033-y'
       },
       {
