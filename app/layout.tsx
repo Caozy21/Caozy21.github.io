@@ -11,9 +11,9 @@ import LoadingAnimation from '@/components/common/LoadingAnimation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Zhuoya Cao | B.Sc. Astronomy Student',
-	description: 'Personal website of Zhuoya Cao, a B.Sc. Astronomy student from China, showcasing academic achievements, research projects, and professional aspirations.',
-	keywords: 'Zhuoya Cao, Astronomy, Researcher, China, B.Sc. Astronomy, Astronomical Research, Student Portfolio',
+	title: 'Zhuoya Cao | PhD Student at University of Toronto',
+	description: 'Personal website of Zhuoya Cao, a PhD student at the University of Toronto, showcasing academic achievements, astronomy research projects, and study notes.',
+	keywords: 'Zhuoya Cao, Astronomy, Researcher, University of Toronto, UofT, PhD Student, Astronomical Research, Student Portfolio',
 };
 
 export default function RootLayout({

@@ -5,7 +5,7 @@ import PageHeader from '@/components/common/PageHeader';
 
 export const metadata: Metadata = {
   title: 'About | Zhuoya Cao',
-  description: 'Learn about Zhuoya Cao, a B.Sc. Astronomy student from China, her background, research interests, and professional goals.',
+  description: 'Learn about Zhuoya Cao, a PhD student at the University of Toronto, including academic background, research interests, and professional goals.',
 };
 
 export default function AboutPage() {

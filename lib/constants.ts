@@ -70,7 +70,7 @@ export const projects = [
 export const contactInfo = {
 	email: "zhuoyacaoly@gmail.com",
 	phone: "+86 151 5110 9716",
-	address: "Westlake University, Hangzhou, China 310000",
+	address: "University of Toronto, Toronto, Canada",
 	socialMedia: {
 		linkedin: "https://www.linkedin.com/in/zhuoya-cao-51a687337/",
 		twitter: "https://twitter.com",

@@ -54,7 +54,7 @@ export default function Hero() {
           variants={item}
           className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8"
         >
-          B.Sc. Astronomy Student <span className="hidden md:inline">|</span><br className="md:hidden" /> Hangzhou, China
+          PhD Student at UofT <span className="hidden md:inline">|</span><br className="md:hidden" /> Toronto, Canada
         </motion.h2>
 
         <motion.p

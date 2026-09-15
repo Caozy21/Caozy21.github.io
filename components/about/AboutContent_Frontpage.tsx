@@ -25,7 +25,7 @@ export default function AboutContent() {
 					<div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
 					<div className="absolute bottom-0 left-0 p-6">
 						<h3 className="text-xl font-semibold mb-2">Zhuoya Cao</h3>
-						<p className="text-muted-foreground">B.Sc. Astronomy Student</p>
+						<p className="text-muted-foreground">PhD Student at University of Toronto</p>
 					</div>
 				</div>
 			</motion.div>
@@ -40,7 +40,7 @@ export default function AboutContent() {
 				<h2 className="text-3xl font-bold mb-6">About Me</h2>
 
 				<p className="text-muted-foreground">
-					Hello! I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
+					Hello! I'm Zhuoya Cao, currently a PhD student at the University of Toronto, Canada. Previously, I worked as a research assistant in the Division of Astronomy at Westlake University, China. I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
 				</p>
 
 				<p className="text-muted-foreground">
@@ -82,7 +82,7 @@ export default function AboutContent() {
 				</div>
 
 				<p className="text-muted-foreground">
-					I'm currently seeking graduate positions to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of astronomy.
+					I'm pursuing doctoral studies at the University of Toronto and welcome opportunities for research collaboration and scientific exchange.
 				</p>
 
 				<CVButton />

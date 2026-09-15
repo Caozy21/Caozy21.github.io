@@ -19,7 +19,7 @@ export default function AboutContent() {
 				<h2 className="text-xl font-bold mb-6">Hello!</h2>
 
 				<p className="text-muted-foreground">
-					I'm Zhuoya Cao, currently a research assistant in the Division of Astronomy at Westlake University, China. Prior to this, I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
+					I'm Zhuoya Cao, currently a PhD student at the University of Toronto, Canada. Previously, I worked as a research assistant in the Division of Astronomy at Westlake University, China. I obtained my B.Sc. from Tsinghua University, China, majoring in Mechanics and minoring in Astronomy.
 				</p>
 				
 				
@@ -91,10 +91,6 @@ export default function AboutContent() {
 						<h3 className="font-medium">Passion</h3>
 					</div>
 				</div> */}
-
-				{/* <p className="text-muted-foreground">
-					I'm currently seeking graduate positions to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of astronomy.
-				</p> */}
 
 				<CVButton />
 			</motion.div>

@@ -9,7 +9,7 @@ import { contactInfo } from '@/lib/constants';
 
 export const metadata: Metadata = {
 	title: 'Contact | Zhuoya Cao',
-	description: 'Get in touch with Zhuoya Cao, a B.Sc. Astronomy student from China, for professional opportunities, research collaborations or academic inquiries.',
+	description: 'Get in touch with Zhuoya Cao, a PhD student at the University of Toronto, for research collaborations, scientific exchange, or academic inquiries.',
 };
 
 export default function ContactPage() {

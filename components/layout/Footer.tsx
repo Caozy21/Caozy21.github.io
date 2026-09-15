@@ -11,7 +11,7 @@ export default function Footer() {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Zhuoya Cao</h3>
 						<p className="text-sm text-muted-foreground mb-4">
-							B.Sc. Astronomy Student passionate about research and exploration in astronomical dynamics.
+							PhD student at the University of Toronto, passionate about research and exploration in astronomical dynamics.
 						</p>
 						<div className="flex space-x-4">
 							<Link
@@ -116,7 +116,7 @@ export default function Footer() {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Contact</h3>
 						<p className="text-sm text-muted-foreground mb-2">
-							Hangzhou, China
+							Toronto, Canada
 						</p>
 						<p className="text-sm text-muted-foreground mb-2">
 							zhuoyacaoly@gmail.com

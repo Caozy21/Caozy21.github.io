@@ -7,6 +7,18 @@ import Link from 'next/link';
 
 const educationData = [
   {
+    id: 4,
+    degree: 'PhD Student',
+    institution: 'University of Toronto',
+    location: 'Toronto, Canada',
+    period: 'Sep 2026 - Present',
+    description: 'Pursuing doctoral studies at the University of Toronto.',
+    achievements: [],
+    publications: [],
+    talks: [],
+    posters: [],
+  },
+  {
     id: 1,
     degree: 'Research Assistant in Astronomy',
     institution: 'Westlake University',
@@ -179,7 +191,7 @@ export default function EducationTimeline() {
                 
                 <p className="text-muted-foreground mb-4">{item.description}</p>
                 
-                <div>
+                {item.achievements.length > 0 && <div>
                   <h4 className="font-semibold text-primary mb-2 flex items-center">
                     <Award className="w-4 h-4 mr-2 flex-shrink-0" />
                     Achievements
@@ -189,7 +201,7 @@ export default function EducationTimeline() {
                       <li key={i}>{achievement}</li>
                     ))}
                   </ul>
-                </div>
+                </div>}
 
                 {item.publications && item.publications.length > 0 && (
                   <div className="mb-4">
