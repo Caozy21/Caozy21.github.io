@@ -88,6 +88,14 @@ export default function Footer() {
 							</li>
 							<li>
 								<Link
+									href="/learning"
+									className="text-sm text-muted-foreground hover:text-primary transition-colors"
+								>
+									Learning
+								</Link>
+							</li>
+							<li>
+								<Link
 									href="/posts"
 									className="text-sm text-muted-foreground hover:text-primary transition-colors"
 								>

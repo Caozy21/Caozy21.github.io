@@ -1,0 +1,45 @@
+.learning-markdown {
+  color: hsl(var(--foreground));
+  font-size: 1rem;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+.learning-markdown > :first-child { margin-top: 0; }
+.learning-markdown p, .learning-markdown ul, .learning-markdown ol,
+.learning-markdown blockquote, .learning-markdown pre, .learning-table { margin: 1.25rem 0; }
+.learning-markdown h1, .learning-markdown h2, .learning-markdown h3,
+.learning-markdown h4, .learning-markdown h5, .learning-markdown h6 {
+  scroll-margin-top: 7rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.learning-markdown h1 { font-size: 2rem; }
+.learning-markdown h2 { font-size: 1.5rem; border-bottom: 1px solid hsl(var(--border)); padding-bottom: .5rem; }
+.learning-markdown h3 { font-size: 1.25rem; }
+.learning-markdown h4 { font-size: 1.125rem; }
+.learning-markdown a { text-decoration: underline; text-underline-offset: 3px; }
+.learning-markdown a:hover { color: hsl(var(--muted-foreground)); }
+.learning-markdown ul { list-style: disc; padding-left: 1.5rem; }
+.learning-markdown ol { list-style: decimal; padding-left: 1.5rem; }
+.learning-markdown li { margin: .35rem 0; }
+.learning-markdown li > ul, .learning-markdown li > ol { margin: .5rem 0; }
+.learning-markdown .contains-task-list { list-style: none; padding-left: .25rem; }
+.learning-markdown input[type='checkbox'] { margin-right: .5rem; accent-color: hsl(var(--primary)); }
+.learning-markdown blockquote { border-left: 3px solid hsl(var(--border)); padding: .25rem 1.25rem; color: hsl(var(--muted-foreground)); }
+.learning-markdown code { border-radius: .25rem; background: hsl(var(--muted)); padding: .15rem .35rem; font-size: .875em; }
+.learning-markdown pre { overflow-x: auto; border: 1px solid hsl(var(--border)); border-radius: .5rem; background: hsl(var(--muted)); padding: 1.25rem; line-height: 1.7; }
+.learning-markdown pre code { background: none; padding: 0; overflow-wrap: normal; }
+.learning-table { overflow-x: auto; border: 1px solid hsl(var(--border)); border-radius: .5rem; }
+.learning-markdown table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.learning-markdown th, .learning-markdown td { border-bottom: 1px solid hsl(var(--border)); padding: .75rem 1rem; min-width: 7rem; }
+.learning-markdown th { background: hsl(var(--muted)); font-weight: 600; }
+.learning-markdown tr:last-child td { border-bottom: 0; }
+.learning-markdown img { max-width: 100%; height: auto; margin: 1.5rem auto; border-radius: .5rem; }
+.learning-markdown hr { margin: 2.5rem 0; border-color: hsl(var(--border)); }
+.learning-markdown .katex { font-size: 1.1em; }
+.learning-markdown .katex-display { overflow-x: auto; overflow-y: hidden; padding: .75rem 0; }
+.learning-markdown .footnotes { margin-top: 3rem; border-top: 1px solid hsl(var(--border)); padding-top: 1rem; font-size: .875rem; color: hsl(var(--muted-foreground)); }
+.learning-markdown .footnotes li { scroll-margin-top: 7rem; }

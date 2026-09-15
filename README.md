@@ -1,5 +1,9 @@
 # 🧪 Chemistry Portfolio
 
+## Learning 学习笔记
+
+Learning 栏目已支持分类、多篇 Markdown 笔记、数学公式和目录。上传与维护方法见 [Learning 维护指南](docs/learning.md)，写作模板见 [Markdown 模板](docs/learning-note-template.md)。
+
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/View_Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://chemistry-portfolio.vercel.app)
