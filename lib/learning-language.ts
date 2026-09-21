@@ -13,5 +13,6 @@ export const englishNoteTitles: Record<string, string> = {
   'ast1440-electron-scattering-eddington-luminosity-magnetic-fields': 'AST1440: Electron Scattering, Eddington Luminosity, and Strong Magnetic Fields',
   'ast1440-thermal-radiation-observations-exercises-1-3-1-5-1-6': 'AST1440: Thermal Radiation and Observations — Lecture Notes and Problems 1.3, 1.5, and 1.6',
   'ast2040-lecture-1-cosmic-history-and-galaxy-formation': 'AST2040 Lecture 1: Cosmic Evolution from the Early Universe to Galaxy Formation',
+  'ast2040-lectures-1-2-cosmic-structure-and-galaxy-morphology': 'AST2040 Lectures 1–2: From Cosmic Structure Formation to Galaxy Morphology',
   'loss-cone-orbital-geometry-diffusion-dissipation': 'Loss Cones: From Orbital Geometry to Diffusion, Stellar Cusps, and Disk Dissipation',
 };
