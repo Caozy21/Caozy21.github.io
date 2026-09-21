@@ -1,3 +1,5 @@
+import { learningPath, type LearningLanguage } from '@/lib/learning-language';
+import { prepareLearningMarkdown } from '@/lib/learning-markdown';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -10,7 +12,7 @@ import { toString } from 'mdast-util-to-string';
 import GithubSlugger from 'github-slugger';
 
 export function getNoteHeadings(content: string) {
-  const tree = unified().use(remarkParse).use(remarkGfm).use(remarkMath).parse(content);
+  const tree = unified().use(remarkParse).use(remarkGfm).use(remarkMath).parse(prepareLearningMarkdown(content));
   const slugger = new GithubSlugger();
   const headings: { id: string; title: string; depth: number }[] = [];
   visit(tree, 'heading', (node) => {
@@ -21,7 +23,7 @@ export function getNoteHeadings(content: string) {
   return headings;
 }
 
-export default function MarkdownContent({ content, category, slug }: { content: string; category: string; slug: string }) {
+export default function MarkdownContent({ content, category, slug, language = 'zh' }: { content: string; category: string; slug: string; language?: LearningLanguage }) {
   return (
     <div className="learning-markdown">
       <ReactMarkdown
@@ -33,7 +35,7 @@ export default function MarkdownContent({ content, category, slug }: { content: 
             let destination = href;
             // Relative links between uploaded .md files become website links.
             if (href && !/^(?:[a-z][a-z\d+.-]*:|\/\/|#)/i.test(href)) {
-              const url = new URL(href, `https://learning.local/learning/${category}/${slug}`);
+              const url = new URL(href, `https://learning.local${learningPath(language, category, slug)}`);
               if (/\.md$/i.test(url.pathname)) destination = url.pathname.replace(/\.md$/i, '') + url.search + url.hash;
             }
             const external = /^https?:\/\//i.test(destination || '');
@@ -47,7 +49,7 @@ export default function MarkdownContent({ content, category, slug }: { content: 
           ),
         }}
       >
-        {content}
+        {prepareLearningMarkdown(content)}
       </ReactMarkdown>
     </div>
   );
