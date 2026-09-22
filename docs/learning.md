@@ -81,6 +81,8 @@ content/learning/radiation/en/my-note.md    # 英文全文
 
 英文文件须包含英文 `title`、`description`，以及对应中文文件完整字节内容的 SHA-256 `sourceHash`；正文开头的一级标题应与 `title` 一致。日期、标签、排序等字段默认继承原文，也可在译文中覆盖。英文正文需要完整翻译，保留公式、列表、表格和引用，同时把手工目录链接改为对应英文标题的锚点。
 
+仓库的默认发布规则是：新增或更新公开中文笔记时，在同一次变更中自动准备完整英文译文。GitHub Pages 部署会运行完整性校验；缺少译文、译文过期、公式或结构不一致时，部署会停止，不会把半成品英文版上线。
+
 ```yaml
 ---
 title: "My English note title"
@@ -137,6 +139,6 @@ node scripts/test-learning-markdown.mjs
 node scripts/verify-learning-translations.mjs
 ```
 
-检查包括源文件哈希、译文残留中文、标题、公式一致性和 KaTeX 语法、结构数量、引用和目录锚点。发布要求所有笔记都有英文版时，追加 `--require-complete`。当前 GitHub Actions 的 Node 20 仍可正常构建网站；上述 Node 24 专项脚本在本地运行。
+检查包括源文件哈希、译文残留中文、标题、公式一致性和 KaTeX 语法、结构数量、引用和目录锚点。也可直接运行 `npm run verify:learning`，它会要求所有公开笔记都有完整英文版。GitHub Actions 使用 Node 24 并在生产构建前自动执行同一检查。
 
 页面静态导出到 `out/`，兼容现有 GitHub Pages 部署流程。网站访客侧没有上传后台；管理笔记使用 GitHub 仓库或本地文件。
