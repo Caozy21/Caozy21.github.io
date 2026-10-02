@@ -16,7 +16,7 @@ tags:
   - Exercises
 order: 6
 draft: false
-sourceHash: bae6f801053c97207d4d8d41ad9029ede77d79810d9854f87639a85ad16065a7
+sourceHash: f31a7bf360b3c29408574c0574a0dfa0a3a863968c3db2937bf4b5f766b74009
 translation: AI-assisted English translation
 ---
 
@@ -46,8 +46,6 @@ translation: AI-assisted English translation
 15. [References and Citations](#15-references-and-citations)
 
 ---
-
-<a id="sec-1"></a>
 
 ## 1. Preparation Requirements and Logical Road Map
 
@@ -131,8 +129,6 @@ $$
 
 ---
 
-<a id="sec-2"></a>
-
 ## 2. Notation, Units, Complex-Exponential Convention, and Assumptions
 
 ### 2.1 Table of Symbols
@@ -215,8 +211,6 @@ If one instead uses $e^{i(\omega t-\mathbf k\cdot\mathbf r)}$, the signs of seve
 - The medium is locally uniform; the geometric-optics approximation is used when the medium varies slowly.
 
 ---
-
-<a id="sec-3"></a>
 
 ## 3. Physical Meaning of Maxwell's Equations and the Vacuum Wave Equation
 
@@ -442,8 +436,6 @@ These two equations show that changing electric and magnetic fields are mutually
 
 ---
 
-<a id="sec-4"></a>
-
 ## 4. Plane Electromagnetic Waves, Transverse Structure, and Phase Velocity
 
 ### 4.1 Plane Waves and Differential Operators
@@ -624,8 +616,6 @@ In vacuum, the energy-transport speed, phase velocity, and the group velocity de
 
 ---
 
-<a id="sec-5"></a>
-
 ## 5. Finite Pulses, Fourier Spectra, and Their Connection to Quantum Mechanics
 
 ### 5.1 A Finite Pulse Must Contain Multiple Frequencies
@@ -754,8 +744,6 @@ But the physical interpretations differ: for a classical electromagnetic field, 
 A short pulsar or FRB pulse naturally contains a range of frequencies. If the medium makes $v_g$ frequency-dependent, different Fourier components arrive at different times and the original pulse is stretched. Dispersion delay is therefore the direct consequence of a finite pulse plus a frequency-dependent group velocity.
 
 ---
-
-<a id="sec-6"></a>
 
 ## 6. Free-Electron Response, Current, and the Effective Dielectric Constant
 
@@ -959,8 +947,6 @@ at high frequency the electrons cannot move appreciably, so $\epsilon\rightarrow
 
 ---
 
-<a id="sec-7"></a>
-
 ## 7. Cold-Plasma Dispersion Relation, Cutoff, and Nondissipative Response
 
 ### 7.1 dispersion relation
@@ -1123,8 +1109,6 @@ Then $\operatorname{Re}(\sigma)>0$, and coherent electron oscillation is convert
 
 ---
 
-<a id="sec-8"></a>
-
 ## 8. Phase Velocity, Group Velocity, and Signal Propagation
 
 ### 8.1 The Two Definitions Track Different Objects
@@ -1265,8 +1249,6 @@ $$
 This does not mean that energy propagates infinitely fast. It means that the phase has an extremely large spatial scale while the wave packet can transport almost no energy forward.
 
 ---
-
-<a id="sec-9"></a>
 
 ## 9. Pulsar Dispersion, DM, and the Numerical Coefficient 4.15 ms
 
@@ -1465,8 +1447,6 @@ $$
 The low-frequency delay can be very pronounced at radio wavelengths, making pulsars and FRBs useful probes of electron column density.
 
 ---
-
-<a id="sec-10"></a>
 
 ## 10. Problem 2.2: Conducting Media, Complex Refractive Index, and Absorption
 
@@ -1677,8 +1657,6 @@ where $\epsilon$ and $\mu$ are the SI absolute permittivity and permeability.
 
 ---
 
-<a id="sec-11"></a>
-
 ## 11. Problem 8.1: Why $I_\nu/n_r^2$ Is Conserved Along a Ray
 
 ### 11.1 Problem and Assumptions
@@ -1845,8 +1823,6 @@ This is also a manifestation of conservation of optical étendue and of Liouvill
 
 ---
 
-<a id="sec-12"></a>
-
 ## 12. Problem 8.2: Why the Wave-Packet Centroid Moves at the Group Velocity
 
 ### 12.1 Problem
@@ -1973,8 +1949,6 @@ $$
 Thus group velocity is not an arbitrary definition: it is indeed the propagation velocity of the centroid of a narrow wave packet. If the packet is broad and $d^2\omega/dk^2\neq0$, different $k$ components also propagate at different speeds, causing the packet to broaden as it moves.
 
 ---
-
-<a id="sec-13"></a>
 
 ## 13. English assignment-ready solutions
 
@@ -2207,8 +2181,6 @@ Thus the group velocity is the propagation velocity of the centroid of a narrow 
 
 ---
 
-<a id="sec-14"></a>
-
 ## 14. Review Checklist, Dimensional Checks, and Common Confusions
 
 ### 14.1 You Should Be Able to Derive Independently
@@ -2313,8 +2285,6 @@ as required by $I_\nu=I_{\nu,0}e^{-\alpha_\nu r}$.
 - Narrow packet, $A(k)\rightarrow\delta(k-k_0)$: the centroid velocity in Problem 8.2 approaches $d\omega/dk|_{k_0}$.
 
 ---
-
-<a id="sec-15"></a>
 
 ## 15. References and Citations
 
