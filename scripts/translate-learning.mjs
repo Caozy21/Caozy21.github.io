@@ -58,7 +58,7 @@ export function translatedSource(source, translations) {
   }
   const headingIds = text => {
     const ids = [], slugger = new GithubSlugger();
-    visit(parser.parse(text), 'heading', node => ids.push(slugger.slug(toString(node))));
+    visit(parser.parse(text), 'heading', node => { ids.push(slugger.slug(toString(node))); });
     return ids;
   };
   // Relative in-page links must follow the translated heading, including Chinese URLs.

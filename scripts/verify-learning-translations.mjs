@@ -14,7 +14,8 @@ import katex from 'katex';
 import { prepareLearningMarkdown } from '../lib/learning-markdown.ts';
 
 const parser = unified().use(parse).use(gfm).use(math);
-const collect = (tree, type) => { const nodes = []; visit(tree, type, n => nodes.push(n)); return nodes; };
+// A visitor must not return a value: unist-util-visit reads a returned number as the next index to visit.
+const collect = (tree, type) => { const nodes = []; visit(tree, type, n => { nodes.push(n); }); return nodes; };
 const root = path.join(process.cwd(), 'content/learning');
 let published = 0, formulas = 0;
 const pending = [];
