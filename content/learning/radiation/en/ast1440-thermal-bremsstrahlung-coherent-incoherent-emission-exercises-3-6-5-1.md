@@ -5,7 +5,7 @@ date: "2026-10-19"
 tags: ["AST1440","Thermal bremsstrahlung","Free-free emission","Coherence","Radiative transfer","Exercises"]
 order: 13
 draft: false
-sourceHash: 8a1cffd327d68391363008bd0bf791f0b470574e67288db1044721782041197a
+sourceHash: 399e3454ab1979aca0b14ab7afe57b4b6adf58f36b950cb0398aecae39024306
 translation: "AI-assisted English translation"
 ---
 
@@ -1285,6 +1285,10 @@ The field of a high-speed charge is compressed into a narrow angular region perp
 ### 12.1 Problem Setup
 
 There are $N$ radiating particles. Each produces an electric-field pulse of the same shape $E_0(t)$, arriving at time $t_i$:
+
+![Three-dimensional illustration of time-domain pulses and their Fourier spectra](/learning/radiation/problem-3-6-time-frequency-illustration.png)
+
+*Figure 12.1: Time–frequency illustration for Problem 3.6. The colored curves in the center represent electric-field pulses with different arrival times; the left side shows the frequency-domain representation and the right side the time-domain representation. The original watermark and attribution are retained. Source: [original Zhihu article](https://zhuanlan.zhihu.com/p/19763358).*
 
 $$
 E(t)=\sum_{i=1}^{N}E_0(t-t_i).

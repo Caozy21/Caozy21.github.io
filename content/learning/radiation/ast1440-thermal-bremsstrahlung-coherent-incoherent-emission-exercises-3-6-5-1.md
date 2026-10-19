@@ -1284,6 +1284,10 @@ $$
 
 有 $N$ 个辐射粒子。每个粒子产生相同形状的电场脉冲 $E_0(t)$，到达时间是 $t_i$：
 
+![时间域脉冲及其 Fourier 频谱的三维示意图](/learning/radiation/problem-3-6-time-frequency-illustration.png)
+
+*图 12.1：Problem 3.6 的时域—频域示意。中间的彩色曲线表示不同到达时间的电场脉冲；左侧展示频域图像，右侧展示时域图像。图片保留原作者水印与署名。来源：[知乎专栏原文](https://zhuanlan.zhihu.com/p/19763358)。*
+
 $$
 E(t)=\sum_{i=1}^{N}E_0(t-t_i).
 $$
