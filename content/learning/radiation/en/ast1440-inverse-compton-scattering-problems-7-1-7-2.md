@@ -6,7 +6,7 @@ tags: ["AST1440","Inverse Compton scattering","Comptonization","Radiative coolin
 order: 18
 draft: false
 translation: "AI-assisted English translation"
-sourceHash: "b0554cf3a935e9325abc24558c57c2a235ee8291da70b506b022a1a35d941696"
+sourceHash: "1ee15037460236730c6b358b1ce239218b5cd2c9c589b0eee417bcefb14b4933"
 ---
 
 # AST1440 Inverse Compton Scattering: RL §§7.1–7.4 and Problems 7.1–7.2
@@ -108,6 +108,10 @@ Rearranging this expression and restoring $c$ recovers the Compton formula in Se
 
 ### 2.3 Low-energy approximation using a momentum triangle and the law of cosines
 
+![Photon momentum difference and electron recoil in Compton scattering](/learning/radiation/inverse-compton/compton-momentum-triangle.svg)
+
+*Figure 1. The two photon momentum vectors share a common origin. Their difference is the electron recoil momentum, and the law of cosines gives the factor $1-\cos\theta$. The diagram assumes that the photon momentum changes little in magnitude during scattering.*
+
 Let $\mathbf p_i,\mathbf p_f$ denote the initial and final photon **three-momenta**, and let $\mathbf q$ be the electron recoil momentum. Three-dimensional momentum conservation gives
 
 $$
@@ -137,6 +141,10 @@ This is exactly the first-order expansion of the full Compton formula when $\eps
 ---
 
 ## 3. Inverse Compton scattering in the Thomson limit
+
+![Two Doppler boosts with an intermediate Thomson scattering step](/learning/radiation/inverse-compton/two-doppler-boosts.svg)
+
+*Figure 2. Scattering is nearly elastic in the electron rest frame, but the photon can be strongly blueshifted in the laboratory frame. The diagram shows the maximum energy gain for head-on incidence and a favorable outgoing direction.*
 
 Suppose that the electron moves at speed $\beta c$ in the laboratory frame, with Lorentz factor $\gamma=(1-\beta^2)^{-1/2}$. Let $\theta_i$ be the angle between the incident photon and the electron velocity.
 
@@ -262,9 +270,19 @@ $$
 \boxed{\frac{P_{\rm IC}}{P_{\rm syn}}=\frac{U_{\rm rad}}{U_B}}.
 $$
 
+**Supplement to RL §7.3 on spectra and SSC.** A population of relativistic electrons can produce synchrotron photons and then scatter those photons to higher energies through inverse Compton scattering. When the seed photons come from synchrotron emission by the same electrons, the process is called synchrotron self-Compton (SSC). The schematic illustrates these two emission components.
+
+![Schematic synchrotron and inverse Compton peaks](/learning/radiation/inverse-compton/ssc-two-peak-spectrum.svg)
+
+*Figure 3. The schematic shows two peaks in $\nu F_\nu$. Their relative heights and positions depend on the electron spectrum, the magnetic field, the seed photons, and Klein–Nishina corrections.*
+
 ---
 
 ## 6. Random walks and the number of scatterings: $\tau$ and $\tau^2$
+
+![Direct escape at low optical depth and a random walk at high optical depth](/learning/radiation/inverse-compton/optical-depth-random-walk.svg)
+
+*Figure 4. Most photons escape directly in the optically thin limit. In the optically thick limit, repeated scattering randomizes their directions, and about $\tau^2$ scatterings are needed for a net displacement across a region of size $R$. The trajectories are schematic.*
 
 Define the mean free path and scattering optical depth as
 
@@ -313,6 +331,10 @@ $$
 
 ## 7. Thermal Comptonization, the $y$ parameter, and $e^y$
 
+![Compton y parameter as a function of electron-scattering optical depth](/learning/radiation/inverse-compton/compton-y-optical-depth.svg)
+
+*Figure 5. At fixed electron temperature, $y$ scales with $\tau$ in the optically thin regime and with $\tau^2$ in the optically thick regime. The example curve uses $4kT_e/(m_ec^2)=0.12$.*
+
 For nonrelativistic thermal electrons with $kT_e\ll m_ec^2$, low photon occupation numbers, and scattering in the Thomson regime, the mean fractional energy change per scattering is
 
 $$
@@ -324,6 +346,10 @@ $$
 - If $\epsilon\ll kT_e$, the mean **fractional** gain per scattering is approximately the constant $a=4kT_e/(m_ec^2)\ll1$.
 
 ### 7.1 Exponential growth of photon energy
+
+![Energy gain and recoil-driven saturation in thermal Comptonization](/learning/radiation/inverse-compton/compton-energy-gain-saturation.svg)
+
+*Figure 6. The dashed curve assumes a fixed fractional energy gain per scattering and therefore grows exponentially. The solid curve uses a simplified recoil term to show how the energy gain saturates. A full treatment would require solving the Kompaneets equation.*
 
 Each scattering increases the photon energy by an approximately fixed fraction:
 
@@ -366,6 +392,10 @@ Conceptually, $y\ll1$ produces only weak spectral changes, $y\gtrsim1$ produces 
 ---
 
 ## 8. Review of thermal bremsstrahlung
+
+![Electron deflection in bremsstrahlung and the forces in hydrostatic equilibrium](/learning/radiation/inverse-compton/bremsstrahlung-hydrostatic-equilibrium.svg)
+
+*Figure 7. The left panel shows an electron radiating as the Coulomb field of a positive ion deflects it. The right panel illustrates an idealized spherical gas in which an outward pressure-gradient force balances inward gravity.*
 
 A free electron is **accelerated, including a change in direction**, by the Coulomb force as it passes an ion and therefore emits radiation. It does not need to decelerate along its velocity vector. This process is also called *free–free emission*.
 

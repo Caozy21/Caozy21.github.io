@@ -108,6 +108,10 @@ $$
 
 ### 2.3 低能近似：动量三角形与余弦定理
 
+![Compton 散射的光子动量差与电子反冲动量](/learning/radiation/inverse-compton/compton-momentum-triangle.svg)
+
+*图 1. 两个光子动量矢量从同一点出发，电子反冲动量是二者之差；余弦定理直接给出 $1-\cos\theta$。图示近似假设散射前后光子动量大小相近。*
+
 令 $\mathbf p_i,\mathbf p_f$ 表示光子**三维动量**，$\mathbf q$ 表示电子反冲动量。三维动量守恒给出
 
 $$
@@ -138,6 +142,10 @@ $$
 
 
 ## 3. 逆康普顿散射的 Thomson 极限
+
+![逆康普顿散射中的两次 Doppler 变换与 Thomson 中间步骤](/learning/radiation/inverse-compton/two-doppler-boosts.svg)
+
+*图 2. 光子在电子静止系中近似弹性散射，实验室系中则可能被大幅蓝移。示意图对应迎头入射、特定出射方向的最大能量增益情形。*
 
 设电子实验室系速度为 $\beta c$、Lorentz factor 为 $\gamma=(1-\beta^2)^{-1/2}$；入射光子与电子运动方向的夹角为 $\theta_i$。
 
@@ -265,10 +273,20 @@ $$
 \boxed{\frac{P_{\rm IC}}{P_{\rm syn}}=\frac{U_{\rm rad}}{U_B}}.
 $$
 
+**RL §7.3 略读补充（能谱与 SSC）**：同一群相对论电子可以先产生 synchrotron 光子，再通过 inverse Compton 将这些光子散射到更高能量；如果种子光子来自这群电子自身的 synchrotron emission，就称为 synchrotron self-Compton（SSC）。下面只用示意图帮助理解两个辐射成分，不展开额外的谱学推导。
+
+![Synchrotron 与 inverse-Compton 两个谱峰示意](/learning/radiation/inverse-compton/ssc-two-peak-spectrum.svg)
+
+*图 3. 画的是示意性的 $\nu F_\nu$ 双峰谱，而不是一组观测数据。两个峰的相对高度和位置取决于电子能谱、磁场、种子光子以及 Klein–Nishina 修正。*
+
 ---
 
 
 ## 6. 随机游走与散射次数：$\tau$ 与 $\tau^2$
+
+![光学薄直线逃逸与光学厚随机游走](/learning/radiation/inverse-compton/optical-depth-random-walk.svg)
+
+*图 4. 光学薄时大部分光子直接逃逸；光学厚时方向不断随机化，需约 $\tau^2$ 次散射才能产生跨越尺度 $R$ 的净位移。轨迹为定性示意。*
 
 定义平均自由程和散射光学深度：
 
@@ -318,6 +336,10 @@ $$
 
 ## 7. 热康普顿化、$y$ 参数与 $e^y$
 
+![Compton y 参数随电子散射光学深度的变化](/learning/radiation/inverse-compton/compton-y-optical-depth.svg)
+
+*图 5. 固定电子温度时，$y$ 在光学薄区域随 $\tau$ 一次增长，在光学厚区域随 $\tau^2$ 增长。曲线取 $4kT_e/(m_ec^2)=0.12$，为示意参数值。*
+
 对非相对论热电子（$kT_e\ll m_ec^2$），低占据数光子场、Thomson regime，单次散射平均相对能量变化为
 
 $$
@@ -329,6 +351,10 @@ $$
 - 若 $\epsilon\ll kT_e$，则单次平均**相对**增益近似为常数 $a=4kT_e/(m_ec^2)\ll1$。
 
 ### 7.1 光子能量的指数增长
+
+![热 Comptonization 的能量增益与反冲饱和](/learning/radiation/inverse-compton/compton-energy-gain-saturation.svg)
+
+*图 6. 虚线是只保留固定相对增益时的指数估算，实线包含简化的反冲抑制，显示为什么指数律不能无限持续；曲线不是完整 Kompaneets 解。*
 
 每次散射光子能量增加近似固定比例：
 
@@ -372,6 +398,10 @@ $$
 
 
 ## 8. 热轫致辐射（Bremsstrahlung）复习
+
+![轫致辐射中的电子偏转与静水平衡中的两种力](/learning/radiation/inverse-compton/bremsstrahlung-hydrostatic-equilibrium.svg)
+
+*图 7. 左：电子被正离子的 Coulomb 场偏转并辐射；右：热气体受向内引力和向外压力梯度力支撑。右侧是理想化球对称示意。*
 
 自由电子经过离子时受到 Coulomb 力而**加速（包括速度方向改变）**，因而发出辐射；并非必须沿速度方向减速。又称 *free–free emission*。
 
