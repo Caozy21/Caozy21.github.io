@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 950 320" width="950" height="320" role="img">
+<rect width="100%" height="100%" rx="16" fill="#f8fafc"/>
+<text x="475" y="33" text-anchor="middle" font-size="19" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#213247">Atomic orbital sketches (shapes and wavefunction signs)</text>
+<rect x="27" y="54" width="196" height="225" rx="13" fill="white" stroke="#d5dfeb"/>
+<text x="125" y="79" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#213247">s (l=0)</text>
+<circle cx="125" cy="171" r="62" fill="#397bb1" fill-opacity=".27" stroke="#397bb1" stroke-width="2"/><text x="125" y="176" text-anchor="middle" font-size="21" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#397bb1">+</text>
+<text x="125" y="264" text-anchor="middle" font-size="13" font-weight="400" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#667789">even parity</text>
+<rect x="262" y="54" width="196" height="225" rx="13" fill="white" stroke="#d5dfeb"/>
+<text x="360" y="79" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#213247">p_z (l=1)</text>
+<ellipse cx="360" cy="137" rx="32" ry="42" fill="#397bb1" fill-opacity=".72"/><ellipse cx="360" cy="206" rx="32" ry="42" fill="#d98d40" fill-opacity=".75"/><text x="360" y="139" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">+</text>
+<text x="360" y="212" text-anchor="middle" font-size="20" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">−</text>
+<text x="360" y="264" text-anchor="middle" font-size="13" font-weight="400" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#667789">odd parity</text>
+<rect x="497" y="54" width="196" height="225" rx="13" fill="white" stroke="#d5dfeb"/>
+<text x="595" y="79" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#213247">d_(x²−y²)</text>
+<ellipse cx="595" cy="120" rx="25" ry="37" fill="#d98d40" fill-opacity=".77"/><text x="595" y="125" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">−</text>
+<ellipse cx="595" cy="222" rx="25" ry="37" fill="#d98d40" fill-opacity=".77"/><text x="595" y="227" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">−</text>
+<ellipse cx="542" cy="171" rx="38" ry="24" fill="#397bb1" fill-opacity=".77"/><text x="542" y="176" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">+</text>
+<ellipse cx="648" cy="171" rx="38" ry="24" fill="#397bb1" fill-opacity=".77"/><text x="648" y="176" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">+</text>
+<text x="595" y="264" text-anchor="middle" font-size="13" font-weight="400" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#667789">even parity</text>
+<rect x="732" y="54" width="196" height="225" rx="13" fill="white" stroke="#d5dfeb"/>
+<text x="830" y="79" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#213247">d_(z²)</text>
+<ellipse cx="830" cy="173" rx="66" ry="24" fill="#d98d40" fill-opacity=".25" stroke="#d98d40" stroke-width="2"/><ellipse cx="830" cy="123" rx="30" ry="48" fill="#397bb1" fill-opacity=".84"/><ellipse cx="830" cy="219" rx="30" ry="48" fill="#397bb1" fill-opacity=".84"/><text x="830" y="121" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">+</text>
+<text x="830" y="225" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="white">+</text>
+<text x="885" y="177" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#d98d40">−</text>
+<text x="830" y="264" text-anchor="middle" font-size="13" font-weight="400" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#667789">even parity</text>
+<text x="475" y="304" text-anchor="middle" font-size="13" font-weight="400" font-family="Arial, Noto Sans CJK SC, sans-serif" fill="#667789">Colors denote signs of the wavefunction, NOT electric charges.</text>
+</svg>
