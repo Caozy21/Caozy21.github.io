@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="300" viewBox="0 0 940 300">
+<rect width="940" height="300" rx="16" fill="#f8fbfd" />
+<g font-family="Arial, sans-serif" fill="#18324c">
+ <text x="220" y="31" font-size="21" text-anchor="middle" font-weight="bold">Bound electron: H⁰</text>
+ <text x="708" y="31" font-size="21" text-anchor="middle" font-weight="bold">Free electron: H⁺ + e⁻</text>
+ <rect x="45" y="55" width="350" height="170" rx="12" fill="#eff5fb" stroke="#a0b5c8" stroke-width="2"/>
+ <rect x="541" y="55" width="350" height="170" rx="12" fill="#eff5fb" stroke="#a0b5c8" stroke-width="2"/>
+ <ellipse cx="220" cy="132" rx="65" ry="48" fill="none" stroke="#3486bf" stroke-width="3" stroke-dasharray="6 5"/>
+ <circle cx="220" cy="132" r="20" fill="#de8e4d"/><text x="220" y="138" text-anchor="middle" fill="white" font-size="15">p+</text>
+ <circle cx="274" cy="110" r="12" fill="#397db7"/><text x="274" y="116" text-anchor="middle" fill="white" font-size="14">e-</text>
+ <circle cx="622" cy="135" r="20" fill="#de8e4d"/><text x="622" y="141" text-anchor="middle" fill="white" font-size="15">p+</text>
+ <circle cx="786" cy="100" r="12" fill="#397db7"/><text x="786" y="106" text-anchor="middle" fill="white" font-size="14">e-</text>
+ <path d="M742 100 Q698 69 660 91 M807 116 Q849 158 794 198" fill="none" stroke="#397db7" stroke-width="3" stroke-dasharray="7 5" />
+ <text x="220" y="251" font-size="17" text-anchor="middle">Fewer accessible translational states</text>
+ <text x="708" y="251" font-size="17" text-anchor="middle">Many free-electron momentum states</text>
+ <text x="470" y="131" font-size="30" text-anchor="middle">⇌</text>
+ <text x="470" y="165" font-size="15" text-anchor="middle">χ = 13.6 eV</text>
+ <text x="470" y="282" font-size="13" text-anchor="middle">Schematic only; not to scale</text>
+</g></svg>
